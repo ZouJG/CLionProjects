@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TestSO.dir/main.cpp.o CMakeFiles/TestSO.dir/FuncChoose.cpp.o  -o TestSO -ldl 

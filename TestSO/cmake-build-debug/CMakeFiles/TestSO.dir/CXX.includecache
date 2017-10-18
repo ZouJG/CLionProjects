@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jack/CLionProjects/TestSO/FuncChoose.cpp
+iostream
+-
+FuncChoose.h
+/home/jack/CLionProjects/TestSO/FuncChoose.h
+dlfcn.h
+-
+TestMath.h
+/home/jack/CLionProjects/TestSO/TestMath.h
+
+/home/jack/CLionProjects/TestSO/FuncChoose.h
+
+/home/jack/CLionProjects/TestSO/TestMath.h
+
+/home/jack/CLionProjects/TestSO/main.cpp
+iostream
+-
+dlfcn.h
+-
+FuncChoose.h
+/home/jack/CLionProjects/TestSO/FuncChoose.h
+
