@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jack/CLionProjects/maskcoreSO/ChMask.cpp
+ChMask.h
+/home/jack/CLionProjects/maskcoreSO/ChMask.h
+
+/home/jack/CLionProjects/maskcoreSO/ChMask.h
+MaskFunction.h
+/home/jack/CLionProjects/maskcoreSO/MaskFunction.h
+
+/home/jack/CLionProjects/maskcoreSO/MaskFunction.h
+iostream
+-
+map
+-
+string
+-
+boost/any.hpp
+-
+sys/time.h
+-
+
+/home/jack/CLionProjects/maskcoreSO/main.cpp
+iostream
+-
+dlfcn.h
+-
+MaskFunction.h
+/home/jack/CLionProjects/maskcoreSO/MaskFunction.h
+

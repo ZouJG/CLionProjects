@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/maskcoreSO.dir/main.cpp.o CMakeFiles/maskcoreSO.dir/ChMask.cpp.o  -o maskcoreSO -ldl 
