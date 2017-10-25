@@ -9,46 +9,13 @@
 void NmMask::find(type_anymap &input) {
 
     std::cout << "NmMask::setParam" << std::endl;
-//    type_kvmap RET;
-    string error,values;
-//// 设置漂白字段
-    error = getBoostAnyValue<string>(input, COL, "COL");
-    RETURN_ERROR(error, ret);
-//    string error = getBoostAnyValue<string>(input, value, COL);
-//    RETURN_ERROR(error, ret);
-//// 变换数据过程
-//// 设置字段长度
-//    error = getBoostAnyValue<string>(input, len, "LEN");
-//    RETURN_ERROR(error, ret);
-//// 设置漂白函数返回值
-//    error = getBoostAnyValue<type_kvmap>(input, RET, "RET");
-//    RETURN_ERROR(error, ret);
-//    if (RET.empty()) {
-//        ret["error"] = (string) ("漂白函数的返回参数没有设置.");
-//        return;
-//    } else {
-//        type_kvmap::iterator itRet = RET.begin();
-//        RETNAME = itRet->first;
-//    }
-//    LEN = atoi(len.c_str());
-//    if (!scale.empty())
-//        SCALE = atoi(scale.c_str());
-//    else
-//        SCALE = -1;
+
 }
 // 漂白函数
 void NmMask::mask(type_anymap &input) {
     std::cout << "NmMask::mask" << std::endl;
 
-//    string value, srcValue;
-//// 获取字段值
-//    if (!srcValue.empty() && strcmp(value.c_str(), SELF_NULL)) {
-//        int num = value.size();
-//        for (int i = 0; i < num; ++i) {
-//            value[i] = value[i] + 1;
-//        }
-//    }
-//    ret[RETNAME] = value; // 设置返回值
+
 }
 
 extern "C" {
